@@ -20,6 +20,7 @@ html {
 
 body {
   overflow: hidden;
+  min-height: 100vh;
   color: var(--primary-color);
   font: 500 2rem var(--font-family);
   background-color: var(--bg-color);
@@ -32,6 +33,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  padding: 1rem;
 }
 
 .full-time {
@@ -50,6 +52,8 @@ body {
 
 .days {
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
   margin: 1rem 0;
 }
@@ -57,7 +61,7 @@ body {
 .day {
   font-size: 1.9rem;
   color: var(--secondary-color);
-  margin: 0 1rem;
+  margin: 0 0.5rem;
 }
 
 ::selection {
@@ -78,8 +82,8 @@ body {
 }
 
 .loader {
-  width: 6.7rem;
-  height: 6.7rem;
+  width: 6.1rem;
+  height: 6.1rem;
   background: center / contain no-repeat url(../img/loader.gif);
 }
 
@@ -107,18 +111,8 @@ body {
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 450px) {
   html {
     font-size: 5px;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  html {
-    font-size: 4px;
-  }
-
-  .day {
-    margin: 0 0.5rem;
   }
 }
