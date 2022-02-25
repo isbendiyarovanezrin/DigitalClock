@@ -65,6 +65,24 @@ body {
   background-color: var(--primary-color);
 }
 
+/* loader */
+#loadingDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  background-color: var(--primary-color);
+}
+
+.loader {
+  width: 6.7rem;
+  height: 6.7rem;
+  background: center / contain no-repeat url(../img/loader.gif);
+}
+
 @media screen and (max-width: 900px) {
   html {
     font-size: 9px;
