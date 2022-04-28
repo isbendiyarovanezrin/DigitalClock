@@ -1,3 +1,5 @@
+"use strict";
+
 const time = document.getElementById("time");
 const am_pm = document.getElementById("am-pm");
 const fullDate = document.getElementById("full-date");
@@ -44,7 +46,7 @@ function updateTime(t) {
 
 setInterval(startClock, 1000);
 
-// loader
+// loader start
 $(window).on("load", () => {
   setTimeout(removeLoader, 1700);
 });
@@ -54,3 +56,4 @@ function removeLoader() {
     $("#loadingDiv").remove();
   });
 }
+// loader end
