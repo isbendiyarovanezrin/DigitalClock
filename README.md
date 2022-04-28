@@ -1,6 +1,6 @@
 ## Digital clock ∞
 
-#### Digital clock built with HTML5, CSS3 and vanilla JavaScript.
+#### Digital clock built with HTML5, CSS3, jQuery and vanilla JavaScript.
 
 ##### You can view the project [here](https://isbendiyarovanezrin.github.io/DigitalClock "Click me!🙃").
 
